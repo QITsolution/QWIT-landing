@@ -24,7 +24,7 @@ function Pricing() {
       name="pricing"
       className="self-center h-full min-h-screen flex flex-col items-center justify-center  ">
       <div className=" justify-center items-center flex flex-col ">
-        <h1 className="text-[70px]">Pricing</h1>
+        <h1 className="text-4xl">Pricing</h1>
         {/* prof */}
         <div className="flex flex-row items-center justify-center ">
           <div className="flex flex-col items-center border-[3px] rounded-md border-[#735BFF] mx-[10rem] py-14 px-20">

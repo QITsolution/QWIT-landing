@@ -15,7 +15,7 @@ function Home() {
           <div className="flex flex-col items-start justify-center mr-[7rem]">
             <img
               src={require("../assets/notification.png")}
-              className="h-20 w-20"
+              className="h-20 w-20 hover:animate-ping"
               alt=""
             />
             <p className="text-white font-bold">Reminder To Visit</p>
@@ -26,7 +26,7 @@ function Home() {
           </div>
           <div className="flex flex-col items-start justify-center mx-[7rem]">
             <img
-              className="h-20 w-20"
+              className="h-20 w-20 hover:animate-bounce"
               src={require("../assets/reminder.png")}
               alt=""
             />
