@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-function NavBar() {
+const NavBar = () => {
   return (
-    <div className="w-[100%] items-center backdrop-blur-md   flex flex-col fixed z-50">
-      <div className="h-[5rem] w-[80%] mt-4 rounded-lg  self-center flex lex-row justify-between items-center">
+    <div className=" lg:flex hidden  w-full items-center backdrop-blur-md flex-col fixed z-50 ">
+      {/* <div className="fixed w-full h-[5rem] lg:flex hidden justify-between  backdrop-blur-md items-center px-10 py-4"> */}
+      <div
+        className="h-[5rem] w-full px-4 lg:flex hidden 
+      mt-4 rounded-lg  self-center lex-row justify-between items-center">
         <div>
           <img
             alt="icon"
@@ -61,6 +64,6 @@ function NavBar() {
       </div>
     </div>
   );
-}
+};
 
 export default NavBar;
