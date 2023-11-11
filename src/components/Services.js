@@ -16,7 +16,7 @@ const Services = () => {
             src={require("../assets/support.png")}
             alt=""
           />
-          <div className="flex flex-col justify-center items-center w-auto lg:h-auto h-auto">
+          <div className="flex flex-col justify-center items-center w-auto lg:h-auto h-auto min-h-[14rem]">
             <p className="flex text-xl">Super Support</p>
             <p className="flex lg:px-0 p-3 text-center">
               Salon It is supported by a team of dedicated professionals who are
@@ -31,7 +31,7 @@ const Services = () => {
             src={require("../assets/security.png")}
             alt=""
           />
-          <div className="flex flex-col justify-center items-center w-auto lg:h-[13rem] h-auto">
+          <div className="flex flex-col justify-center items-center w-auto lg:h-auto h-auto min-h-[14rem]">
             <p className="flex text-xl">Safe & Security</p>
             <p className="flex lg:px-0 p-3 text-center">
               We take client data security very seriously. Your data is safe,
@@ -48,7 +48,7 @@ const Services = () => {
             src={require("../assets/assist.png")}
             alt=""
           />
-          <div className="flex flex-col justify-center items-center w-auto lg:h-[13rem] h-auto">
+          <div className="flex flex-col justify-center items-center w-auto lg:h-auto h-auto min-h-[14rem]">
             <p className="flex text-xl">Free Setup Assistance</p>
             <p className="flex lg:px-0 p-3 text-center">
               We know hair salons well. With easy onboarding and free
@@ -66,7 +66,7 @@ const Services = () => {
             src={require("../assets/wordl.png")}
             alt=""
           />
-          <div className="flex flex-col justify-center items-center w-auto lg:h-[13rem] h-auto">
+          <div className="flex flex-col justify-center items-center w-auto lg:h-auto h-auto min-h-[14rem]">
             <p className="flex text-xl">Multi-location Management</p>
             <p className="flex lg:px-0 p-3 text-center">
               We are ready to support your hair salon at every stage of your

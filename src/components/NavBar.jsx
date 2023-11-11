@@ -15,8 +15,7 @@ const NavBar = () => {
           <div>
             <img
               alt="icon"
-              width={80}
-              height={20}
+              className="w-100 h-100"
               src={require("../assets/logo.png")}></img>
           </div>
           <div className="h-[5rem] w-[80%] rounded-lg  self-center flex lex-row justify-end items-center">

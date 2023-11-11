@@ -29,8 +29,7 @@ function Footer() {
           <div className="flex flex-col lg:items-start lg:w-full px-4 items-center ">
             <img
               src={require("../assets/logo.png")}
-              width={50}
-              height={50}
+              className="w-[9rem] h-[8rem]"
               alt=""
             />
             <p className="py-4 lg:w-[20rem] w-auto lg:px-0 md:px-20 px-2">
