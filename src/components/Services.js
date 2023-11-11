@@ -5,7 +5,7 @@ const Services = () => {
     <div
       name="services"
       className="h-full min-h-screen w-full items-center justify-center flex flex-col ">
-      <p className="text-[#735BFF] lg:text-2xl md:text-5xl text-5xl text-center mb-[3rem] mt-[7rem]">
+      <p className="text-[#735BFF] lg:text-2xl md:text-5xl text-3xl text-center mb-[3rem] mt-[7rem]">
         Your peace of mind is our top priority!
       </p>
       <div className="lg:mx-[20rem] w-full h-full lg:grid lg:grid-cols-2 lg:grid-rows-2 flex flex-col justify-center items-center ">
@@ -16,7 +16,7 @@ const Services = () => {
             src={require("../assets/support.png")}
             alt=""
           />
-          <div className="flex flex-col justify-center items-center w-auto lg:h-[13rem] h-auto">
+          <div className="flex flex-col justify-center items-center w-auto lg:h-auto h-auto">
             <p className="flex text-xl">Super Support</p>
             <p className="flex lg:px-0 p-3 text-center">
               Salon It is supported by a team of dedicated professionals who are

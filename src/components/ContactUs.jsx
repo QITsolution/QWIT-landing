@@ -5,7 +5,7 @@ function ContactUs() {
     <div
       name="contactus"
       className=" flex flex-col w-full h-full items-center justify-center my-20">
-      <p className=" lg:text-2xl md:text-3xl text-4xl text-center text-[#735BFF] font-bold ">
+      <p className="lg:text-2xl md:text-5xl text-3xl text-center text-[#735BFF] font-bold lg:px-0 px-3">
         Try “Salon it” hair salon software.
       </p>
       <div className="lg:text-2xl md:text-4xl text-3xl mt-5 hover:opacity-100 opacity-40 duration-300 text-slate-50 font-bold cursor-pointer bg-[#735BFF] rounded-lg py-2 px-4">

@@ -13,10 +13,10 @@ const Home = () => {
               className="h-20 w-20 hover:animate-ping"
               alt=""
             />
-            <p className="text-white font-bold lg:text-2xl md:text-5xl text-5xl">
+            <p className="text-white font-bold lg:text-2xl md:text-3xl text-xl lg:my-0 my-5">
               Reminder To Visit
             </p>
-            <p className="text-white flex-none lg:text-lg md:text-3xl text-3xl">
+            <p className="text-white flex-none lg:text-lg md:text-3xl text-xl">
               Sit and Relax, We have cool feature. Remainder for your next hair
               cut.
             </p>
@@ -27,10 +27,10 @@ const Home = () => {
               src={require("../assets/reminder.png")}
               alt=""
             />
-            <p className="text-white font-bold lg:text-2xl md:text-5xl text-5xl">
+            <p className="text-white font-bold lg:text-2xl md:text-3xl text-xl  lg:my-0 my-5">
               Preparation Tips
             </p>
-            <p className="text-white flex-none lg:text-lg md:text-3xl text-3xl">
+            <p className="text-white flex-none lg:text-lg md:text-3xl text-xl">
               If you have any specific preparations or instructions for next
               visit.
             </p>
