@@ -36,10 +36,7 @@ const Home = () => {
             </p>
           </div>
           <div className="">
-            <img
-              src={require("../assets/851b18b52adb006f0dc30486f410ed13.png")}
-              alt=""
-            />
+            <img src={require("../assets/home.png")} alt="" />
           </div>
         </div>
       </div>

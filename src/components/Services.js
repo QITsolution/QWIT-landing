@@ -63,7 +63,7 @@ const Services = () => {
           <img
             width={146}
             height={146}
-            src={require("../assets/wordl.png")}
+            src={require("../assets/world.png")}
             alt=""
           />
           <div className="flex flex-col justify-center items-center w-auto lg:h-auto h-auto min-h-[14rem]">

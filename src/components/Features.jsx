@@ -26,7 +26,7 @@ function Features() {
             <div className="flex flex-col items-center justify-center ">
               <div className=" border-[6px] rounded-lg border-[#735BFF]">
                 <img
-                  src={require("../assets/ease.jpg")}
+                  src={require("../assets/easeOfAccess.jpg")}
                   alt=""
                   className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[12rem] h-[12rem]"
                 />
@@ -48,7 +48,7 @@ function Features() {
             <div className="flex flex-col items-center justify-center ">
               <div className=" border-[6px] rounded-lg border-[#735BFF]">
                 <img
-                  src={require("../assets/whatsa.jpg")}
+                  src={require("../assets/whatsapp.jpg")}
                   alt=""
                   className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[12rem] h-[12rem]"
                 />

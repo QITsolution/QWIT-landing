@@ -17,10 +17,10 @@ function Footer() {
   ];
   //   icons must only be added in the assets' root folder
   const socials = [
-    { link: "https://facebook.com", icon: "fb.png" },
-    { link: "https://linkedin.com", icon: "link.png" },
-    { link: "https://instagram.com", icon: "insta.png" },
-    { link: "https://twitter.com", icon: "twit.png" },
+    { link: "https://facebook.com", icon: "facebook.png" },
+    { link: "https://linkedin.com", icon: "linkedin.png" },
+    { link: "https://instagram.com", icon: "instagram.png" },
+    { link: "https://twitter.com", icon: "twitter.png" },
   ];
   return (
     <div name="aboutus" className="bg-slate-200 flex flex-col items-center ">
