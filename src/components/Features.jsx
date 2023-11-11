@@ -16,7 +16,7 @@ function Features() {
                 <img
                   src={require("../assets/ai.jpg")}
                   alt=""
-                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[20rem] h-[20rem] "
+                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[15rem] h-[15rem]"
                 />
               </div>
               <p className="lg:text-2xl md:text-5xl text-5xl my-5">
@@ -28,7 +28,7 @@ function Features() {
                 <img
                   src={require("../assets/ease.jpg")}
                   alt=""
-                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[20rem] h-[20rem] "
+                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[15rem] h-[15rem]"
                 />
               </div>
 
@@ -41,7 +41,7 @@ function Features() {
                 <img
                   src={require("../assets/chatbot.jpg")}
                   alt=""
-                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[20rem] h-[20rem] "
+                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[15rem] h-[15rem]"
                 />
               </div>
 
@@ -52,7 +52,7 @@ function Features() {
                 <img
                   src={require("../assets/whatsa.jpg")}
                   alt=""
-                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[20rem] h-[20rem] "
+                  className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[15rem] h-[15rem]"
                 />
               </div>
 
