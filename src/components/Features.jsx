@@ -10,7 +10,7 @@ function Features() {
           <p className="text-[#735BFF] lg:text-2xl md:text-5xl text-5xl text-center mb-[3rem] mt-[7rem]">
             We Used advanced Technologies
           </p>
-          <div className="w-full h-[20rem] lg:flex lg:flex-row lg:mx-[10rem] justify-between items-center">
+          <div className="w-full lg:flex lg:flex-row lg:mx-[10rem] justify-between items-center">
             <div className="flex flex-col items-center justify-center">
               <div className="  border-[6px] rounded-lg border-[#735BFF]">
                 <img
