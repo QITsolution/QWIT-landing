@@ -4,14 +4,14 @@ function ContactUs() {
   return (
     <div
       name="contactus"
-      className=" flex flex-col w-full h-full items-center justify-center">
-      <p className="text-4xl text-[#735BFF] font-bold my-3">
+      className=" flex flex-col w-full h-full items-center justify-center my-20">
+      <p className=" lg:text-2xl md:text-3xl text-4xl text-center text-[#735BFF] font-bold ">
         Try “Salon it” hair salon software.
       </p>
-      <button className="bg-[#735BFF] text-white text-3xl my-10 px-4 py-2 rounded-md hover:opacity-100 opacity-70 duration-300 transition-opacity">
-        SIGN UP NOW
-      </button>
-      <p className=" mt-4 mb-10">
+      <div className="lg:text-2xl md:text-4xl text-3xl mt-5 hover:opacity-100 opacity-40 duration-300 text-slate-50 font-bold cursor-pointer bg-[#735BFF] rounded-lg py-2 px-4">
+        Sign Up Now
+      </div>
+      <p className="my-6 lg:text-xl md:text-3xl text-2xl text-center lg:px-0 md:px-0 px-8">
         No credit card required! Our free plan is free forever.
       </p>
     </div>

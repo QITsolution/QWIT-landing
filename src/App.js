@@ -7,7 +7,7 @@ import ContactUs from "./components/ContactUs";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
   return (
     <div>
       <NavBar />
@@ -19,6 +19,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
