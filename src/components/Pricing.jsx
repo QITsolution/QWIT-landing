@@ -22,9 +22,9 @@ function Pricing() {
   return (
     <div
       name="pricing"
-      className="self-center h-full     min-h-screen w-full flex flex-col  items-center justify-center  ">
+      className="self-center h-full min-h-screen w-full flex flex-col  items-center justify-center  ">
       <div className=" justify-center items-center flex flex-col ">
-        <h1 className=" lg:my-20 my-5 lg:text-2xl md:text-5xl text-4xl text-[#735BFF]">
+        <h1 className=" lg:my-20 my-5 lg:text-2xl md:text-xl sm:text-xl text-2xl text-[#735BFF]">
           Pricing
         </h1>
         <div className="flex lg:flex-row flex-col items-center justify-center">

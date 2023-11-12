@@ -5,7 +5,7 @@ const Services = () => {
     <div
       name="services"
       className="h-full min-h-screen   w-full items-center justify-center flex flex-col ">
-      <p className="text-[#735BFF] px-10 lg:text-2xl md:text-5xl text-4xl text-center mb-[3rem] mt-[7rem]">
+      <p className="text-[#735BFF] px-10 lg:text-2xl md:text-xl sm:text-xl text-2xl text-center mb-[3rem] mt-[7rem]">
         Your peace of mind is our top priority!
       </p>
       <div className="lg:w-[85%] h-full lg:grid lg:grid-cols-2 lg:grid-rows-2 flex flex-col justify-center items-center  ">
@@ -19,8 +19,8 @@ const Services = () => {
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
             <p className="flex text-xl text-center">Super Support</p>
             <p className="flex lg:px-0 p-5 text-justify">
-              Salon It is supported by a team of dedicated professionals who are
-              always available via email, chat, and phone.
+              Quantum Wave IT is supported by a team of dedicated professionals
+              who are always available via email, chat, and phone.
             </p>
           </div>
         </div>
@@ -73,8 +73,8 @@ const Services = () => {
             <p className="flex lg:px-0 p-5 text-justify">
               We are ready to support your hair salon at every stage of your
               growth. When you expand your business to multiple locations,
-              “Salon It” allows easy management of all your salon locations from
-              a centralized admin portal.
+              “Quantum Wave IT” allows easy management of all your salon
+              locations from a centralized admin portal.
             </p>
           </div>
         </div>

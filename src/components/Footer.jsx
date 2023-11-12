@@ -33,8 +33,8 @@ function Footer() {
               alt=""
             />
             <p className="py-4 lg:w-[20rem] w-auto lg:px-0 md:px-20 px-2">
-              “Salon It” is a simple, powerful and affordable software built for
-              managing Salons, Spas & Nail Studios.
+              Quantum Wave IT provides Softwares as a service for your
+              businesses to work better, faster and with increased productivity.
             </p>
 
             <div className="flex flex-row py-4 justify-between items-center">

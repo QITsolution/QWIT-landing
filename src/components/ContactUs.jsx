@@ -51,7 +51,7 @@ function ContactUs() {
     <div
       name="contactus"
       className="w-full h-full py-10 px-4 items-center justify-center flex flex-col">
-      <p className="lg:text-2xl md:text-xl sm:text-xl text-lg">Contact Us</p>
+      <p className="lg:text-2xl md:text-xl sm:text-xl text-2xl">Contact Us</p>
       <form
         className="w-full h-full items-center justify-center flex flex-col"
         onSubmit={handleSubmit}>
