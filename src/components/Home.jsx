@@ -17,8 +17,8 @@ const Home = () => {
               Reminder To Visit
             </p>
             <p className="text-white flex-none lg:text-lg md:text-3xl text-xl">
-              Sit and Relax, We have cool feature. Remainder for your next hair
-              cut.
+              Sit and Relax, We have all the cool features. Reminders for your
+              next hair cut.
             </p>
           </div>
           <div className="flex flex-col items-start justify-center mx-2 lg:py-0 py-5">
