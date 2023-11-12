@@ -5,9 +5,9 @@ const Home = () => {
     <div name="home" className="h-full w-full">
       <div className="w-full flex flex-row justify-between items-center">
         <div
-          className="bg-black w-full flex lg:mt-[7rem] lg:flex-row px-10
+          className="bg-black w-full flex lg:flex-row px-10 lg:my-20
          flex-col justify-between items-center">
-          <div className="flex flex-col items-start justify-center mx-2 lg:py-0 py-5">
+          <div className="flex flex-col items-start justify-center mx-2 py-5">
             <img
               src={require("../assets/notification.png")}
               className="h-20 w-20 hover:animate-ping"

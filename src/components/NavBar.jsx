@@ -8,44 +8,44 @@ const NavBar = () => {
   };
   return (
     <div>
-      <div className="lg:flex hidden  w-full items-center backdrop-blur-md flex-col fixed z-50 ">
+      <div className="lg:flex hidden w-full items-center  backdrop-blur-md flex-col fixed z-50 ">
         <div
-          className="h-[5rem] w-full px-4 lg:flex hidden 
-      mt-4 rounded-lg  self-center lex-row justify-between items-center">
+          className="h-[3rem] w-full px-4 lg:flex hidden mt-5
+       rounded-lg  self-center lex-row justify-between items-center">
           <div>
             <img
               alt="icon"
-              className="w-100 h-100"
+              className="scale-50"
               src={require("../assets/logo.png")}></img>
           </div>
           <div className="h-[5rem] w-[80%] rounded-lg  self-center flex lex-row justify-end items-center">
             <div className="h-[5rem] w-[80%] rounded-lg  self-center flex lex-row justify-between items-center">
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer my-10 lg:text-lg md:text-5xl">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
                 <Link to="home" smooth={true} duration={600}>
                   Home
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer my-10 lg:text-lg md:text-5xl">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
                 <Link to="features" smooth={true} duration={600}>
                   Features
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer my-10 lg:text-lg md:text-5xl">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
                 <Link to="pricing" smooth={true} duration={600}>
                   Pricing
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer my-10 lg:text-lg md:text-5xl">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
                 <Link to="services" smooth={true} duration={600}>
                   Services
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer my-10 lg:text-lg md:text-5xl">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
                 <Link to="contactus" smooth={true} duration={600}>
                   ContactUs
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer my-10 lg:text-lg md:text-5xl">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
                 <Link to="aboutus" smooth={true} duration={600}>
                   About Us
                 </Link>
@@ -71,12 +71,12 @@ const NavBar = () => {
         className="fixed lg:hidden top-4 right-5  z-20">
         {!sideBar ? (
           <FaBars
-            className="bg-slate-500  rounded-md h-12 w-12 p-2"
+            className="bg-slate-500  rounded-md h-[1cm] w-[1cm] p-2"
             size={40}
           />
         ) : (
           <FaTimes
-            className="bg-slate-500  rounded-md h-12 w-12 p-2"
+            className="bg-slate-500  rounded-md h-[1cm] w-[1cm] p-2"
             size={40}
           />
         )}
@@ -84,15 +84,15 @@ const NavBar = () => {
       <div
         className={`${
           sideBar
-            ? "fixed z-10 h-screen w-screen flex flex-col items-center justify-center backdrop-brightness-50 backdrop-blur-3xl"
+            ? "fixed z-10 h-full w-full flex flex-col items-center justify-center backdrop-brightness-50 backdrop-blur-3xl"
             : "hidden"
         }`}>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer text-[#defffe] my-7 lg:text-lg md:text-5xl  ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
           <Link to="home" onClick={handleSidebar} smooth={true} duration={600}>
             Home
           </Link>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer text-[#defffe] my-7 lg:text-lg md:text-5xl  ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
           <Link
             to="features"
             onClick={handleSidebar}
@@ -101,7 +101,7 @@ const NavBar = () => {
             Features
           </Link>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer text-[#defffe] my-7 lg:text-lg md:text-5xl  ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
           <Link
             to="pricing"
             onClick={handleSidebar}
@@ -110,7 +110,7 @@ const NavBar = () => {
             Pricing
           </Link>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer text-[#defffe] my-7 lg:text-lg md:text-5xl  ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
           <Link
             to="services"
             onClick={handleSidebar}
@@ -119,7 +119,7 @@ const NavBar = () => {
             Services
           </Link>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer text-[#defffe] my-7 lg:text-lg md:text-5xl  ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
           <Link
             to="contactus"
             onClick={handleSidebar}
@@ -128,7 +128,7 @@ const NavBar = () => {
             ContactUs
           </Link>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer text-[#defffe] my-7 lg:text-lg md:text-5xl  ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
           <Link
             to="aboutus"
             onClick={handleSidebar}
@@ -137,14 +137,14 @@ const NavBar = () => {
             About Us
           </Link>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-5xl cursor-pointer text-[#defffe] my-7 lg:text-lg md:text-5xl  ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
           <a href="http://localhost:3000/login">
             <Link to="login" smooth={true} duration={600}>
               Login
             </Link>
           </a>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-bold text-5xl cursor-pointer bg-[#735BFF] rounded-lg py-[2%] px-[4%] text-[#defffe] my-10 lg:text-lg md:text-5xl">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-bold text-3xl  cursor-pointer bg-[#735BFF] rounded-lg py-[2%] px-[4%] text-[#defffe] my-1[3%] ">
           <Link to="signup" smooth={true} duration={600}>
             SignUp
           </Link>

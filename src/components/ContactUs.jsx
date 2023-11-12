@@ -51,7 +51,7 @@ function ContactUs() {
     <div
       name="contactus"
       className="w-full h-full py-10 px-4 items-center justify-center flex flex-col">
-      <h1 className="lg:text-3xl md:text-2xl sm:text-xl">Contact Us</h1>
+      <p className="lg:text-lg md:text-md sm:text-sm text-lg">Contact Us</p>
       <form
         className="w-full h-full items-center justify-center flex flex-col"
         onSubmit={handleSubmit}>
@@ -59,7 +59,7 @@ function ContactUs() {
           className="lg:w-[70%] w-auto h-full items-center justify-center flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-2
         md:grid md:grid-cols-2 md:grid-rows-2">
           <div className=" flex flex-row  items-center justify-center">
-            <FiUser className="w-6 h-6 mr-4" />
+            <FiUser className="w-6 h-6 mx-4" />
             <input
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
@@ -70,7 +70,7 @@ function ContactUs() {
             />
           </div>
           <div className=" flex flex-row  items-center justify-center">
-            <FiPhone className="w-6 h-6 mr-4" />
+            <FiPhone className="w-6 h-6 mx-4" />
             <input
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
@@ -81,7 +81,7 @@ function ContactUs() {
             />
           </div>
           <div className=" flex flex-row  items-center justify-center">
-            <FiMail className="w-6 h-6 mr-4" />
+            <FiMail className="w-6 h-6 mx-4" />
             <input
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="email"
@@ -92,7 +92,7 @@ function ContactUs() {
             />
           </div>
           <div className=" flex flex-row  items-center justify-center">
-            <FiHome className="w-6 h-6 mr-4" />
+            <FiHome className="w-6 h-6 mx-4" />
             <input
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
@@ -105,9 +105,9 @@ function ContactUs() {
         </div>
         <div className="flex flex-col w-full h-full  items-center justify-center">
           <div className="flex flex-row h-full w-full   justify-center">
-            <FiEdit className="h-6 w-6 my-2 mr-4" />
+            <FiEdit className="h-6 w-6 my-2 mx-4" />
             <textarea
-              className="h-[10rem] w-[50%] lg:text-2xl md:text-xl sm:text-lg my-2 bg-slate-300 px-4 py-2 rounded-lg outline-none"
+              className=" lg:w-[35rem] md:w-[25rem] w-[15rem] lg:text-2xl md:text-xl sm:text-lg my-2 bg-slate-300 px-4 py-2 rounded-lg outline-none"
               placeholder="Comment"
               onChange={(e) => {
                 setComment(e.target.value);
