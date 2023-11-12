@@ -4,10 +4,10 @@ function Features() {
   return (
     <div
       name="features"
-      className="items-center justify-center text-[25px] w-full h-full flex flex-col">
+      className="items-center    justify-center   w-full h-full flex flex-col">
       <div>
         <div className="flex flex-col items-center justify-center">
-          <p className="text-[#735BFF] lg:text-2xl md:text-5xl text-3xl text-center mb-[3rem] mt-[7rem]">
+          <p className="text-[#735BFF] lg:text-2xl md:text-5xl text-4xl text-center mb-[3rem] mt-[7rem]">
             We Used advanced Technologies
           </p>
           <div className="w-full lg:flex lg:flex-row lg:mx-[10rem] justify-between items-center">

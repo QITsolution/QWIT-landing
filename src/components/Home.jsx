@@ -3,9 +3,9 @@ import React from "react";
 const Home = () => {
   return (
     <div name="home" className="h-full w-full">
-      <div className="w-full flex flex-row justify-between items-center">
+      <div className="w-full flex flex-row justify-between items-center ">
         <div
-          className="bg-black w-full flex lg:flex-row px-10 lg:my-20
+          className="w-full flex lg:flex-row px-10 lg:mt-20 bg-black 
          flex-col justify-between items-center">
           <div className="flex flex-col items-start justify-center mx-2 py-5">
             <img

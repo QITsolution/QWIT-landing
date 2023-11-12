@@ -8,9 +8,9 @@ const NavBar = () => {
   };
   return (
     <div>
-      <div className="lg:flex hidden w-full items-center  backdrop-blur-md flex-col fixed z-50 ">
+      <div className="lg:flex hidden w-full items-center lg:justify-center backdrop-blur-md flex-col fixed z-50 ">
         <div
-          className="h-[3rem] w-full px-4 lg:flex hidden mt-5
+          className="h-[3rem] w-full px-4 lg:flex hidden my-3
        rounded-lg  self-center lex-row justify-between items-center">
           <div>
             <img
@@ -18,34 +18,34 @@ const NavBar = () => {
               className="scale-50"
               src={require("../assets/logo.png")}></img>
           </div>
-          <div className="h-[5rem] w-[80%] rounded-lg  self-center flex lex-row justify-end items-center">
+          <div className="h-[5rem] w-[80%] rounded-lg  self-center flex flex-row justify-end items-center">
             <div className="h-[5rem] w-[80%] rounded-lg  self-center flex lex-row justify-between items-center">
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer my-[3%] ">
                 <Link to="home" smooth={true} duration={600}>
                   Home
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer my-[3%] ">
                 <Link to="features" smooth={true} duration={600}>
                   Features
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer my-[3%] ">
                 <Link to="pricing" smooth={true} duration={600}>
                   Pricing
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer my-[3%] ">
                 <Link to="services" smooth={true} duration={600}>
                   Services
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer my-[3%] ">
                 <Link to="contactus" smooth={true} duration={600}>
                   ContactUs
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer my-1[3%] ">
+              <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer my-[3%] ">
                 <Link to="aboutus" smooth={true} duration={600}>
                   About Us
                 </Link>
@@ -144,7 +144,7 @@ const NavBar = () => {
             </Link>
           </a>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-bold text-3xl  cursor-pointer bg-[#735BFF] rounded-lg py-[2%] px-[4%] text-[#defffe] my-1[3%] ">
+        <div className="hover:opacity-100 opacity-40 duration-300 font-bold text-3xl  cursor-pointer bg-[#735BFF] rounded-lg py-[2%] px-[4%] txt[#defffe] my-[3%] ">
           <Link to="signup" smooth={true} duration={600}>
             SignUp
           </Link>

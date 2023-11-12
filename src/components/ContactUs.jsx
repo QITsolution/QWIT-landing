@@ -51,7 +51,7 @@ function ContactUs() {
     <div
       name="contactus"
       className="w-full h-full py-10 px-4 items-center justify-center flex flex-col">
-      <p className="lg:text-lg md:text-md sm:text-sm text-lg">Contact Us</p>
+      <p className="lg:text-2xl md:text-xl sm:text-xl text-lg">Contact Us</p>
       <form
         className="w-full h-full items-center justify-center flex flex-col"
         onSubmit={handleSubmit}>
@@ -61,7 +61,7 @@ function ContactUs() {
           <div className=" flex flex-row  items-center justify-center">
             <FiUser className="w-6 h-6 mx-4" />
             <input
-              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
+              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
               placeholder="Your Name"
               onChange={(e) => {
@@ -72,7 +72,7 @@ function ContactUs() {
           <div className=" flex flex-row  items-center justify-center">
             <FiPhone className="w-6 h-6 mx-4" />
             <input
-              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
+              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
               placeholder="Phone number"
               onChange={(e) => {
@@ -83,7 +83,7 @@ function ContactUs() {
           <div className=" flex flex-row  items-center justify-center">
             <FiMail className="w-6 h-6 mx-4" />
             <input
-              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
+              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="email"
               placeholder="Email"
               onChange={(e) => {
@@ -94,7 +94,7 @@ function ContactUs() {
           <div className=" flex flex-row  items-center justify-center">
             <FiHome className="w-6 h-6 mx-4" />
             <input
-              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-300 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
+              className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
               placeholder="Saloon Name"
               onChange={(e) => {
@@ -103,12 +103,13 @@ function ContactUs() {
             />
           </div>
         </div>
-        <div className="flex flex-col w-full h-full  items-center justify-center">
-          <div className="flex flex-row h-full w-full   justify-center">
-            <FiEdit className="h-6 w-6 my-2 mx-4" />
+        <div className="flex flex-col w-full h-full items-center justify-center">
+          <div className="flex flex-row h-full w-full justify-center">
+            <FiEdit className="h-6 w-6 mx-4 mt-4" />
             <textarea
-              className=" lg:w-[35rem] md:w-[25rem] w-[15rem] lg:text-2xl md:text-xl sm:text-lg my-2 bg-slate-300 px-4 py-2 rounded-lg outline-none"
+              className=" lg:w-[7.7in] md:w-[30rem] w-[16.5rem] lg:text-xl md:text-md sm:text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none"
               placeholder="Comment"
+              rows={4}
               onChange={(e) => {
                 setComment(e.target.value);
               }}
@@ -116,7 +117,8 @@ function ContactUs() {
           </div>
           <button
             disabled={!canSubmit}
-            className={`w-auto h-auto lg:text-2xl md:text-xl sm:text-lg my-2 bg-slate-300 px-4 py-2 rounded-lg
+            className={`w-auto h-auto lg:text-xl md:text-xl sm:text-lg my-2 bg-slate-200 px-4 py-2 rounded-lg
+            self-center
           transition-transform duration-300 outline-none focus:scale-110
           ${
             !canSubmit
