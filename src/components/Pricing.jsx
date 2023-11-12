@@ -30,13 +30,13 @@ function Pricing() {
         {/* prof */}
         <div className="flex lg:flex-row flex-col items-center justify-center">
           <div className=" h-auto lg:w-full md:w-full w-[25rem] flex flex-col items-center border-[3px] rounded-md border-[#735BFF] lg:mx-[10rem] py-14 px-20 my-6">
-            <p className="lg:text-4xl md:text-5xl text-5xl">Professional</p>
+            <p className="lg:text-4xl md:text-5xl text-3xl">Professional</p>
             <p className="flex flex-row text-[red] items-center">
               <p>₹</p>
-              <p className="lg:text-2xl md:text-3xl text-3xl lg:my-2 my-3">
+              <p className="lg:text-2xl md:text-3xl text-xl lg:my-2 my-3">
                 10,000
               </p>
-              <p className="lg:text-2xl md:text-3xl text-3xl lg:my-2 my-3">
+              <p className="lg:text-2xl md:text-3xl text-xl lg:my-2 my-3">
                 /year
               </p>
             </p>
@@ -46,7 +46,7 @@ function Pricing() {
                   <div className="flex items-center lg:text-2xl md:text-5xl text-5xl justify-center  py-3">
                     <p
                       key={id}
-                      className="lg:text-lg md:text-3xl text-xl text-center">
+                      className="lg:text-lg md:text-3xl text-lg text-center">
                       {val}
                     </p>
                   </div>
@@ -64,13 +64,13 @@ function Pricing() {
           </div>
           {/* ent */}
           <div className=" h-auto lg:w-full md:w-full w-[25rem] flex flex-col items-center border-[3px] rounded-md border-[#735BFF] lg:mx-[10rem] py-14 px-20 my-6">
-            <p className="lg:text-4xl md:text-5xl text-5xl">Enterprise</p>
+            <p className="lg:text-4xl md:text-5xl text-3xl">Enterprise</p>
             <p className="flex flex-row text-[green] items-center">
               <p>₹</p>
-              <p className="lg:text-2xl md:text-3xl text-3xl lg:my-2 my-3">
+              <p className="lg:text-2xl md:text-3xl text-xl lg:my-2 my-3">
                 15,000
               </p>
-              <p className="lg:text-2xl md:text-3xl text-3xl lg:my-2 my-3">
+              <p className="lg:text-2xl md:text-3xl text-xl lg:my-2 my-3">
                 /year
               </p>
             </p>
@@ -80,7 +80,7 @@ function Pricing() {
                   <div className="flex items-center lg:text-2xl md:text-5xl text-5xl justify-center  py-3">
                     <p
                       key={id}
-                      className="lg:text-lg md:text-3xl text-xl text-center">
+                      className="lg:text-lg md:text-3xl text-lg text-center">
                       {val}
                     </p>
                   </div>

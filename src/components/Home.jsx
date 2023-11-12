@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div name="home" className="h-full w-full">
-      <div className="w-full flex flex-row justify-between items-center snap-center">
+      <div className="w-full flex flex-row justify-between items-center">
         <div
           className="bg-black w-full flex lg:mt-[7rem] lg:flex-row px-10
          flex-col justify-between items-center">
