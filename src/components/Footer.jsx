@@ -9,9 +9,9 @@ function Footer() {
     "Retain Customers",
   ];
   const contactus = [
-    "Salon It Software Inc. Vijayawada ",
+    "QuantumWaveiT Software Inc. Vijayawada ",
     "Andhra Pradesh.",
-    "contact@salonit.com",
+    "sales.support@quantumwaveit.in",
     "Privacy Policy",
     "Terms & Conditions ",
   ];
@@ -29,7 +29,7 @@ function Footer() {
           <div className="flex flex-col lg:items-start lg:w-full px-4 items-center ">
             <img
               src={require("../assets/logo.png")}
-              className="w-[9rem] h-[8rem]"
+              className="w-[12rem] h-[7rem]"
               alt=""
             />
             <p className="py-4 lg:w-[20rem] w-auto lg:px-0 md:px-20 px-2">
