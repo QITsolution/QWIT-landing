@@ -58,9 +58,11 @@ const NavBar = () => {
                 </a>
               </div>
               <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer bg-[#735BFF] px-4 py-2 text-white rounded-md">
-                <Link to="signup" smooth={true} duration={600}>
-                  SignUp
-                </Link>
+                
+                <a href="https://meetings.hubspot.com/03-bhubnesh" target="_blank" rel="noopener noreferrer">
+                 SignUp
+                 </a>
+                
               </div>
             </div>
           </div>
@@ -145,9 +147,10 @@ const NavBar = () => {
           </a>
         </div>
         <div className="hover:opacity-100 opacity-40 duration-300 font-bold text-3xl  cursor-pointer bg-[#735BFF] rounded-lg py-[2%] px-[4%] txt[#defffe] my-[3%] ">
-          <Link to="signup" smooth={true} duration={600}>
-            SignUp
-          </Link>
+      
+        <a href="https://meetings.hubspot.com/03-bhubnesh" target="_blank" rel="noopener noreferrer">
+          SignUp
+        </a>     
         </div>
       </div>
     </div>
