@@ -28,7 +28,7 @@ function Footer() {
     { link: "https://twitter.com", icon: twitterLogo },
   ];
   return (
-    <div id="aboutus" className="bg-slate-300 flex flex-col items-center ">
+    <div name="aboutus" className="bg-slate-300 flex flex-col items-center ">
       <div className="h-full w-[80%] my-5">
         <div className="flex flex-row lg:h-[30rem] pt-10 justify-center ">
           <div className="flex flex-col lg:items-start lg:w-full px-4 items-center ">
