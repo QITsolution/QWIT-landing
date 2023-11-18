@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../assets/logo.png";
+
 const NavBar = () => {
   const [sideBar, setSideBar] = useState(false);
   const handleSidebar = () => {
@@ -15,7 +17,7 @@ const NavBar = () => {
           <div>
             <img
               alt="icon"
-              src={require("../assets/logo.png")}
+              src={logo}
               className="w-[7rem] h-[4rem]"></img>
           </div>
           <div className="h-[5rem] w-[80%] rounded-lg  self-center flex flex-row justify-end items-center">

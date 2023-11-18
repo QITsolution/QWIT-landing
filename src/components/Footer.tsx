@@ -1,4 +1,9 @@
-import React from "react";
+import logo from "../assets/logo.png";
+
+import facebookLogo from "../assets/facebook.png?url";
+import instagramLogo from "../assets/instagram.png?url";
+import linkedinLogo from "../assets/linkedin.png?url";
+import twitterLogo from "../assets/twitter.png?url";
 
 function Footer() {
   const prod = ["Home", "Pricing", "Contact Us", "Features"];
@@ -17,10 +22,10 @@ function Footer() {
   ];
   //   icons must only be added in the assets' root folder
   const socials = [
-    { link: "https://facebook.com", icon: "facebook.png" },
-    { link: "https://linkedin.com", icon: "linkedin.png" },
-    { link: "https://instagram.com", icon: "instagram.png" },
-    { link: "https://twitter.com", icon: "twitter.png" },
+    { link: "https://facebook.com", icon: facebookLogo },
+    { link: "https://linkedin.com", icon: linkedinLogo },
+    { link: "https://instagram.com", icon: instagramLogo },
+    { link: "https://twitter.com", icon: twitterLogo },
   ];
   return (
     <div name="aboutus" className="bg-slate-300 flex flex-col items-center ">
@@ -28,7 +33,7 @@ function Footer() {
         <div className="flex flex-row lg:h-[30rem] pt-10 justify-center ">
           <div className="flex flex-col lg:items-start lg:w-full px-4 items-center ">
             <img
-              src={require("../assets/logo.png")}
+              src={logo}
               className="w-[12rem] h-[7rem]"
               alt=""
             />
@@ -45,7 +50,8 @@ function Footer() {
                       className="mx-2 opacity-40 hover:opacity-100 duration-300 transition-opacity"
                       height={50}
                       width={50}
-                      src={require(`../assets/${v.icon}`)}
+                      key={i}
+                      src={v.icon}
                       alt=""
                     />
                   </a>

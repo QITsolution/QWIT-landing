@@ -1,5 +1,14 @@
 import React from "react";
 
+// import image in es6
+// ex: import logo from "../assets/logo.png";
+// <img src={logo} alt="" />
+
+import aiLogo from "../assets/ai.jpg";
+import easeOfAccessLogo from "../assets/easeOfAccess.jpg";
+import chatbotLogo from "../assets/chatbot.jpg";
+import whatsappLogo from "../assets/whatsapp.jpg";
+
 function Features() {
   return (
     <div
@@ -14,7 +23,7 @@ function Features() {
             <div className="flex flex-col items-center justify-center">
               <div className="  border-[6px] rounded-lg border-[#735BFF]">
                 <img
-                  src={require("../assets/ai.jpg")}
+                  src={aiLogo}
                   alt=""
                   className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[12rem] h-[12rem]"
                 />
@@ -26,7 +35,7 @@ function Features() {
             <div className="flex flex-col items-center justify-center ">
               <div className=" border-[6px] rounded-lg border-[#735BFF]">
                 <img
-                  src={require("../assets/easeOfAccess.jpg")}
+                  src={easeOfAccessLogo}
                   alt=""
                   className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[12rem] h-[12rem]"
                 />
@@ -37,7 +46,7 @@ function Features() {
             <div className="flex flex-col items-center justify-center ">
               <div className=" border-[6px] rounded-lg border-[#735BFF]">
                 <img
-                  src={require("../assets/chatbot.jpg")}
+                  src={chatbotLogo}
                   alt=""
                   className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[12rem] h-[12rem]"
                 />
@@ -48,7 +57,7 @@ function Features() {
             <div className="flex flex-col items-center justify-center ">
               <div className=" border-[6px] rounded-lg border-[#735BFF]">
                 <img
-                  src={require("../assets/whatsapp.jpg")}
+                  src={whatsappLogo}
                   alt=""
                   className="lg:w-40 lg:h-40 md:h-[15rem] md:w-[15rem] w-[12rem] h-[12rem]"
                 />
