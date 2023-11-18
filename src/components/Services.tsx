@@ -1,5 +1,10 @@
 import React from "react";
 
+import support from "../assets/support.png";
+import security from "../assets/security.png";
+import assist from "../assets/assist.png";
+import world from "../assets/world.png";
+
 const Services = () => {
   return (
     <div
@@ -13,7 +18,7 @@ const Services = () => {
           <img
             width={146}
             height={146}
-            src={require("../assets/support.png")}
+            src={support}
             alt=""
           />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
@@ -28,7 +33,7 @@ const Services = () => {
           <img
             width={146}
             height={146}
-            src={require("../assets/security.png")}
+            src={security}
             alt=""
           />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
@@ -45,7 +50,7 @@ const Services = () => {
           <img
             width={146}
             height={146}
-            src={require("../assets/assist.png")}
+            src={assist}
             alt=""
           />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
@@ -63,7 +68,7 @@ const Services = () => {
           <img
             width={146}
             height={146}
-            src={require("../assets/world.png")}
+            src={world}
             alt=""
           />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">

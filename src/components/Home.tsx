@@ -1,5 +1,9 @@
 import React from "react";
 
+import notificationImg from "../assets/notification.png";
+import reminderImg from "../assets/reminder.png";
+import homeImg from "../assets/home.png";
+
 const Home = () => {
   return (
     <div name="home" className="h-full w-full">
@@ -9,7 +13,7 @@ const Home = () => {
          flex-col justify-between items-center">
           <div className="flex flex-col items-start justify-center mx-2 py-5">
             <img
-              src={require("../assets/notification.png")}
+              src={notificationImg}
               className="h-20 w-20 hover:animate-ping"
               alt=""
             />
@@ -24,7 +28,7 @@ const Home = () => {
           <div className="flex flex-col items-start justify-center mx-2 lg:py-0 py-5">
             <img
               className="h-20 w-20 hover:animate-bounce"
-              src={require("../assets/reminder.png")}
+              src={reminderImg}
               alt=""
             />
             <p className="text-white font-bold lg:text-2xl md:text-3xl text-xl  lg:my-0 my-5">
@@ -36,7 +40,7 @@ const Home = () => {
             </p>
           </div>
           <div className="">
-            <img src={require("../assets/home.png")} alt="" />
+            <img src={homeImg} alt="" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.png";
 
 function Footer() {
   const prod = ["Home", "Pricing", "Contact Us", "Features"];
@@ -28,7 +29,7 @@ function Footer() {
         <div className="flex flex-row lg:h-[30rem] pt-10 justify-center ">
           <div className="flex flex-col lg:items-start lg:w-full px-4 items-center ">
             <img
-              src={require("../assets/logo.png")}
+              src={logo}
               className="w-[12rem] h-[7rem]"
               alt=""
             />
@@ -45,7 +46,7 @@ function Footer() {
                       className="mx-2 opacity-40 hover:opacity-100 duration-300 transition-opacity"
                       height={50}
                       width={50}
-                      src={require(`../assets/${v.icon}`)}
+                      src={logo}
                       alt=""
                     />
                   </a>
