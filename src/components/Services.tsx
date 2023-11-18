@@ -1,9 +1,9 @@
 import React from "react";
 
-import support from "../assets/support.png";
-import security from "../assets/security.png";
-import assist from "../assets/assist.png";
-import world from "../assets/world.png";
+import support from "../assets/support.webp";
+import security from "../assets/security.webp";
+import assist from "../assets/assist.webp";
+import world from "../assets/world.webp";
 
 const Services = () => {
   return (

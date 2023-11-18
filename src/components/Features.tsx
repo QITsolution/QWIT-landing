@@ -1,7 +1,7 @@
 import React from "react";
 
 // import image in es6
-// ex: import logo from "../assets/logo.png";
+// ex: import logo from "../assets/logo.webp";
 // <img src={logo} alt="" />
 
 import aiLogo from "../assets/ai.jpg";

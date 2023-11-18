@@ -1,8 +1,8 @@
 import React from "react";
 
-import notificationImg from "../assets/notification.png";
-import reminderImg from "../assets/reminder.png";
-import homeImg from "../assets/home.png";
+import notificationImg from "../assets/notification.webp";
+import reminderImg from "../assets/reminder.webp";
+import homeImg from "../assets/home.webp";
 
 const Home = () => {
   return (
