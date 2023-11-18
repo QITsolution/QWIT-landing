@@ -1,9 +1,9 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 
-import facebookLogo from "../assets/facebook.png?url";
-import instagramLogo from "../assets/instagram.png?url";
-import linkedinLogo from "../assets/linkedin.png?url";
-import twitterLogo from "../assets/twitter.png?url";
+import facebookLogo from "../assets/facebook.webp?url";
+import instagramLogo from "../assets/instagram.webp?url";
+import linkedinLogo from "../assets/linkedin.webp?url";
+import twitterLogo from "../assets/twitter.webp?url";
 
 function Footer() {
   const prod = ["Home", "Pricing", "Contact Us", "Features"];

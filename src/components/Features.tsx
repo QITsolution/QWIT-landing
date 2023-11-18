@@ -1,13 +1,13 @@
 import React from "react";
 
 // import image in es6
-// ex: import logo from "../assets/logo.png";
+// ex: import logo from "../assets/logo.webp";
 // <img src={logo} alt="" />
 
-import aiLogo from "../assets/ai.jpg";
-import easeOfAccessLogo from "../assets/easeOfAccess.jpg";
-import chatbotLogo from "../assets/chatbot.jpg";
-import whatsappLogo from "../assets/whatsapp.jpg";
+import aiLogo from "../assets/ai.webp";
+import easeOfAccessLogo from "../assets/easeOfAccess.webp";
+import chatbotLogo from "../assets/chatbot.webp";
+import whatsappLogo from "../assets/whatsapp.webp";
 
 function Features() {
   return (

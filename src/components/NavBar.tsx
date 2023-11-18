@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 
 const NavBar = () => {
   const [sideBar, setSideBar] = useState(false);
