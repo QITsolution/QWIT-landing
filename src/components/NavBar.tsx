@@ -15,10 +15,7 @@ const NavBar = () => {
           className="h-[3rem] w-full px-4 lg:flex hidden my-3
        rounded-lg  self-center lex-row justify-between items-center">
           <div>
-            <img
-              alt="icon"
-              src={logo}
-              className="w-[7rem] h-[4rem]"></img>
+            <img alt="icon" src={logo} className="w-[7rem] h-[4rem]"></img>
           </div>
           <div className="h-[5rem] w-[80%] rounded-lg  self-center flex flex-row justify-end items-center">
             <div className="h-[5rem] w-[80%] rounded-lg  self-center flex lex-row justify-between items-center">
@@ -52,19 +49,13 @@ const NavBar = () => {
                   About Us
                 </Link>
               </div>
-              <div className="hover:opacity-100 opacity-70 duration-300 font-normal text-xl cursor-pointer text-[#735BFF]">
-                <a href="http://localhost:3000/login">
-                  <Link to="login" smooth={true} duration={600}>
-                    Login
-                  </Link>
-                </a>
-              </div>
               <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-xl cursor-pointer bg-[#735BFF] px-4 py-2 text-white rounded-md">
-                
-                <a href="https://meetings.hubspot.com/03-bhubnesh" target="_blank" rel="noopener noreferrer">
-                 SignUp
-                 </a>
-                
+                <a
+                  href="https://meetings.hubspot.com/03-bhubnesh"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  SignUp
+                </a>
               </div>
             </div>
           </div>
@@ -141,18 +132,13 @@ const NavBar = () => {
             About Us
           </Link>
         </div>
-        <div className="hover:opacity-100 opacity-40 duration-300 font-normal text-3xl  cursor-pointer text-[#defffe] my-[3%] ">
-          <a href="http://localhost:3000/login">
-            <Link to="login" smooth={true} duration={600}>
-              Login
-            </Link>
-          </a>
-        </div>
         <div className="hover:opacity-100 opacity-40 duration-300 font-bold text-3xl  cursor-pointer bg-[#735BFF] rounded-lg py-[2%] px-[4%] txt[#defffe] my-[3%] ">
-      
-        <a href="https://meetings.hubspot.com/03-bhubnesh" target="_blank" rel="noopener noreferrer">
-          SignUp
-        </a>     
+          <a
+            href="https://meetings.hubspot.com/03-bhubnesh"
+            target="_blank"
+            rel="noopener noreferrer">
+            SignUp
+          </a>
         </div>
       </div>
     </div>

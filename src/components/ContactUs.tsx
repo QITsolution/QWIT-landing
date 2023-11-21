@@ -21,7 +21,7 @@
 import { FiUser, FiMail, FiPhone, FiHome, FiEdit } from "react-icons/fi";
 import React, { useEffect, useState } from "react";
 
-function ContactUs() {
+const ContactUs = () => {
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -41,12 +41,16 @@ function ContactUs() {
       setCanSubmit(false);
     }
   }, [username, phoneNumber, email, saloonName, comment]);
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(
-      `${username}, ${phoneNumber},${email},${saloonName}, ${comment}`
-    );
-  };
+
+  // need to work on this ASAP:
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(
+  //     `${username}, ${phoneNumber},${email},${saloonName}, ${comment}`
+  //   );
+  // };
+
+  // getform.io will do for now
   return (
     <div
       name="contactus"
@@ -54,7 +58,8 @@ function ContactUs() {
       <p className="lg:text-2xl md:text-xl sm:text-xl text-2xl">Contact Us</p>
       <form
         className="w-full h-full items-center justify-center flex flex-col"
-        onSubmit={handleSubmit}>
+        action="https://getform.io/f/4f6a740f-ec13-4d4b-b150-cfb0e8e50fe5"
+        method="POST">
         <div
           className="lg:w-[70%] w-auto h-full items-center justify-center flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-2
         md:grid md:grid-cols-2 md:grid-rows-2">
@@ -64,6 +69,8 @@ function ContactUs() {
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
               placeholder="Your Name"
+              value={username}
+              name="username"
               onChange={(e) => {
                 setUsername(e.target.value);
               }}
@@ -75,6 +82,8 @@ function ContactUs() {
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
               placeholder="Phone number"
+              value={phoneNumber}
+              name="phoneNumber"
               onChange={(e) => {
                 setPhoneNumber(e.target.value);
               }}
@@ -86,6 +95,8 @@ function ContactUs() {
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="email"
               placeholder="Email"
+              value={email}
+              name="email"
               onChange={(e) => {
                 setEmail(e.target.value);
               }}
@@ -97,6 +108,8 @@ function ContactUs() {
               className="h-auto lg:text-lg md:text-md sm:text-sm text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none transition-transform duration-300 focus:scale-110"
               type="text"
               placeholder="Saloon Name"
+              value={saloonName}
+              name="saloonName"
               onChange={(e) => {
                 setSaloonName(e.target.value);
               }}
@@ -110,6 +123,8 @@ function ContactUs() {
               className=" lg:w-[7.7in] md:w-[30rem] w-[16.5rem] lg:text-xl md:text-md sm:text-lg my-2 bg-slate-200 px-2 py-1 rounded-lg outline-none"
               placeholder="Comment"
               rows={4}
+              value={comment}
+              name="comment"
               onChange={(e) => {
                 setComment(e.target.value);
               }}
@@ -124,14 +139,13 @@ function ContactUs() {
             !canSubmit
               ? "opacity-40 cursor-not-allowed"
               : " hover:bg-slate-600 duration-300 transition-all opacity-100"
-          }`}
-            type="submit">
+          }`}>
             Submit
           </button>
         </div>
       </form>
     </div>
   );
-}
+};
 
 export default ContactUs;

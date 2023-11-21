@@ -1,6 +1,6 @@
 import React from "react";
 
-function Pricing() {
+const Pricing = () => {
   const prof = [
     "Invoice Management",
     "Staff Management",
@@ -61,13 +61,12 @@ function Pricing() {
               );
             })}
             <div className="hover:opacity-100 opacity-40 duration-300 font-bold lg:text-2xl md:text-xl text-lg cursor-pointer bg-[#735BFF] rounded-lg py-2 px-4 text-white my-5">
-            <a
-          href="https://meetings.hubspot.com/03-bhubnesh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sign Up
-        </a>
+              <a
+                href="https://meetings.hubspot.com/03-bhubnesh"
+                target="_blank"
+                rel="noopener noreferrer">
+                Sign Up
+              </a>
             </div>
           </div>
           {/* ent */}
@@ -103,19 +102,18 @@ function Pricing() {
               );
             })}
             <div className="hover:opacity-100 opacity-40 duration-300 font-bold lg:text-2xl md:text-xl text-lg cursor-pointer bg-[#735BFF] rounded-lg py-2 px-4 text-white my-5">
-            <a
-          href="https://meetings.hubspot.com/03-bhubnesh"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          SignUp
-        </a>
+              <a
+                href="https://meetings.hubspot.com/03-bhubnesh"
+                target="_blank"
+                rel="noopener noreferrer">
+                SignUp
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Pricing;
