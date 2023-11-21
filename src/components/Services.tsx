@@ -1,5 +1,4 @@
 import React from "react";
-
 import support from "../assets/support.webp";
 import security from "../assets/security.webp";
 import assist from "../assets/assist.webp";
@@ -15,12 +14,7 @@ const Services = () => {
       </p>
       <div className="lg:w-[85%] h-full lg:grid lg:grid-cols-2 lg:grid-rows-2 flex flex-col justify-center items-center  ">
         <div className="lg:w-auto md:w-[40rem] w-[20rem] flex  lg:flex-row md:flex-row flex-col border-2 border-[#735BFF] mx-5 my-6 rounded-md justify-center items-center">
-          <img
-            width={146}
-            height={146}
-            src={support}
-            alt=""
-          />
+          <img width={146} height={146} src={support} alt="" />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
             <p className="flex text-xl text-center">Super Support</p>
             <p className="flex lg:px-0 p-5 text-justify">
@@ -30,12 +24,7 @@ const Services = () => {
           </div>
         </div>
         <div className="lg:w-auto md:w-[40rem] w-[20rem] flex  lg:flex-row md:flex-row flex-col border-2 border-[#735BFF] mx-5 my-6 rounded-md justify-center items-center">
-          <img
-            width={146}
-            height={146}
-            src={security}
-            alt=""
-          />
+          <img width={146} height={146} src={security} alt="" />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
             <p className="flex text-xl">Safe & Security</p>
             <p className="flex lg:px-0 p-5 text-justify">
@@ -47,12 +36,7 @@ const Services = () => {
           </div>
         </div>
         <div className="lg:w-auto md:w-[40rem] w-[20rem] flex  lg:flex-row md:flex-row flex-col border-2 border-[#735BFF] mx-5 my-6 rounded-md justify-center items-center">
-          <img
-            width={146}
-            height={146}
-            src={assist}
-            alt=""
-          />
+          <img width={146} height={146} src={assist} alt="" />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
             <p className="flex text-xl">Free Setup Assistance</p>
             <p className="flex lg:px-0 p-5 text-justify">
@@ -65,12 +49,7 @@ const Services = () => {
           </div>
         </div>
         <div className="lg:w-auto md:w-[40rem] w-[20rem] flex  lg:flex-row md:flex-row flex-col border-2 border-[#735BFF] mx-5 my-6 rounded-md justify-center items-center">
-          <img
-            width={146}
-            height={146}
-            src={world}
-            alt=""
-          />
+          <img width={146} height={146} src={world} alt="" />
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
             <p className="flex text-xl text-center">
               Multi-location Management
