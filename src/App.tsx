@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import ContactUs from "./components/ContactUs";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import './lib/google_analytics' // Google Analytics
 
 const App = () => {
   return (
