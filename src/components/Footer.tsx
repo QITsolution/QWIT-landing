@@ -29,7 +29,7 @@ const Footer = () => {
   const contactus: FooterRouterStylingEnabled[] = [
     // those with styling enabled, links are to be added later
     {
-      name: "QuantumWaveiT Software Inc. Vijayawada",
+      name: "DigiFrills IT Software Inc. Vijayawada",
       link: null,
       styling: false,
     },
@@ -47,7 +47,7 @@ const Footer = () => {
   //   icons must only be added in the assets' root folder
   const socials = [
     { link: "https://facebook.com", icon: facebookLogo },
-    { link: "https://linkedin.com", icon: linkedinLogo },
+    { link: " https://www.linkedin.com/company/digifrills-it-solutions/", icon: linkedinLogo },
     { link: "https://instagram.com", icon: instagramLogo },
     { link: "https://twitter.com", icon: twitterLogo },
   ];
@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="flex flex-col lg:items-start lg:w-full px-4 items-center ">
             <img src={logo} className="w-[12rem] h-[7rem]" alt="" />
             <p className="py-4 lg:w-[20rem] w-auto lg:px-0 md:px-20 px-2">
-              Quantum Wave IT provides Softwares as a service for your
+              DIGIFRILLS IT provides Softwares as a service for your
               businesses to work better, faster and with increased productivity.
             </p>
 
@@ -79,7 +79,7 @@ const Footer = () => {
               })}
             </div>
             <p className="  lg:w-[20rem] w-auto lg:px-0 md:px-20 px-2">
-              All Rights Reserved @ 2023 Quantum Wave IT Privacy | Cookies |
+              All Rights Reserved @ 2023 DIGIFRILLS IT Privacy | Cookies |
               Terms
             </p>
           </div>

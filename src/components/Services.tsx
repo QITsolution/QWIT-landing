@@ -18,7 +18,7 @@ const Services = () => {
           <div className="flex flex-col justify-center text-center items-center w-auto lg:h-auto h-auto min-h-[14rem] lg:mx-10">
             <p className="flex text-xl text-center">Super Support</p>
             <p className="flex lg:px-0 p-5 text-justify">
-              Quantum Wave IT is supported by a team of dedicated professionals
+              DigiFrills IT is supported by a team of dedicated professionals
               who are always available via email, chat, and phone.
             </p>
           </div>
@@ -57,7 +57,7 @@ const Services = () => {
             <p className="flex lg:px-0 p-5 text-justify">
               We are ready to support your hair salon at every stage of your
               growth. When you expand your business to multiple locations,
-              “Quantum Wave IT” allows easy management of all your salon
+              “Digi Frills IT” allows easy management of all your salon
               locations from a centralized admin portal.
             </p>
           </div>
