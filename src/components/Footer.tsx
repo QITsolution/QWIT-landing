@@ -1,4 +1,4 @@
-import logo from "../assets/logo.webp";
+import footerbanner from "../assets/footerbanner.webp";
 
 import facebookLogo from "../assets/facebook.webp?url";
 import instagramLogo from "../assets/instagram.webp?url";
@@ -56,9 +56,9 @@ const Footer = () => {
       <div className="h-full w-[80%] my-5">
         <div className="flex flex-row lg:h-[30rem] pt-10 justify-center ">
           <div className="flex flex-col lg:items-start lg:w-full px-4 items-center ">
-            <img src={logo} className="w-[12rem] h-[7rem]" alt="" />
+            <img src={footerbanner} className="w-[16rem] h-[7rem]" alt="" />
             <p className="py-4 lg:w-[20rem] w-auto lg:px-0 md:px-20 px-2">
-              DIGIFRILLS IT provides Softwares as a service for your
+              DIGIFRILLS IT SOLUTIONS provides Softwares as a service for your
               businesses to work better, faster and with increased productivity.
             </p>
 
